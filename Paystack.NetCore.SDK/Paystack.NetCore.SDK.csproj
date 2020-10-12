@@ -9,7 +9,14 @@
     <Copyright>2020</Copyright>
     <RepositoryUrl>https://github.com/KodexDigital/Paystack.NetCore.SDK</RepositoryUrl>
     <RepositoryType>Public</RepositoryType>
-    <PackageTags>Paystack, Payment Gateway, For Love, Development</PackageTags>
+    <PackageTags>Paystack, PaymentGateway, ForLove, Development</PackageTags>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageIcon>Paystack.png</PackageIcon>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <ApplicationIcon>paystack.ico</ApplicationIcon>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,6 +26,17 @@
   <ItemGroup>
     <ProjectReference Include="..\Paystack.NetCore.Constants\Paystack.NetCore.Constants.csproj" />
     <ProjectReference Include="..\Paystack.NetCore.Interface\Paystack.NetCore.Interfaces.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Desktop\Mine\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\..\..\..\Pictures\Paystack.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
