@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Kenneth Otoro - Kodex</Authors>
+    <Company>Love for Development</Company>
+    <Description>A library for Paystack payment gateway for the .Net Core community</Description>
+    <Copyright>2020</Copyright>
+    <RepositoryUrl>https://github.com/KodexDigital/Paystack.NetCore.SDK</RepositoryUrl>
+    <RepositoryType>Public</RepositoryType>
+    <PackageTags>Paystack, Payment Gateway, For Love, Development</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Paystack.NetCore.Constants\Paystack.NetCore.Constants.csproj" />
+    <ProjectReference Include="..\Paystack.NetCore.Interface\Paystack.NetCore.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
