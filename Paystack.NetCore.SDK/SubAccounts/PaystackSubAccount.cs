@@ -1,11 +1,10 @@
 ﻿using Newtonsoft.Json;
-using Paystack.NetCore.Models.CreateSubAccounts;
-using Paystack.NetCore.Models.SubAccounts;
 using Paystack.NetCore.SDK.Interfaces;
+using Paystack.NetCore.SDK.Models.CreateSubAccounts;
+using Paystack.NetCore.SDK.Models.SubAccounts;
 using System;
 using System.Collections.Generic;
 using System.Net.Http;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Paystack.NetCore.SDK.SubAccounts

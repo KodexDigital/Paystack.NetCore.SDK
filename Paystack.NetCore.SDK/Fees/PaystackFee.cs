@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Paystack.NetCore.SDK.Fees
+namespace Paystack.NetCore.SDK.SDK.Fees
 {
 	public class PaystackFee
 	{

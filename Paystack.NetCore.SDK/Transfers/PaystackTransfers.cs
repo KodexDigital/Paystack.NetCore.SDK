@@ -1,8 +1,8 @@
 ﻿using Newtonsoft.Json;
-using Paystack.NetCore.Interfaces;
-using Paystack.NetCore.Models.Transfers.Initiations;
-using Paystack.NetCore.Models.Transfers.Recipient;
-using Paystack.NetCore.Models.Transfers.TransferDetails;
+using Paystack.NetCore.SDK.Interfaces;
+using Paystack.NetCore.SDK.Models.Transfers.Initiations;
+using Paystack.NetCore.SDK.Models.Transfers.Recipient;
+using Paystack.NetCore.SDK.Models.Transfers.TransferDetails;
 using System;
 using System.Collections.Generic;
 using System.Net.Http;

@@ -1,7 +1,4 @@
-﻿using Paystack.NetCore.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Paystack.NetCore.SDK.Interfaces;
 
 namespace Paystack.NetCore.SDK.IRepository
 {

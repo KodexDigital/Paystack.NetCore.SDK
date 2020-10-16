@@ -1,10 +1,10 @@
 ﻿using Newtonsoft.Json;
-using Paystack.NetCore.Models;
-using Paystack.NetCore.Models.Authorizations;
-using Paystack.NetCore.Models.Exports;
-using Paystack.NetCore.Models.Transactions;
-using Paystack.NetCore.Models.ViewModels;
 using Paystack.NetCore.SDK.Interfaces;
+using Paystack.NetCore.SDK.Models;
+using Paystack.NetCore.SDK.Models.Authorizations;
+using Paystack.NetCore.SDK.Models.Exports;
+using Paystack.NetCore.SDK.Models.Transactions;
+using Paystack.NetCore.SDK.Models.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Net.Http;

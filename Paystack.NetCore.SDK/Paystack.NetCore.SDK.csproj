@@ -7,7 +7,7 @@
     <Company>Love for Development</Company>
     <Description>A library for Paystack payment gateway for the .Net Core community</Description>
     <Copyright>2020</Copyright>
-    <RepositoryUrl>https://github.com/KodexDigital/Paystack.NetCore.SDK</RepositoryUrl>
+    <RepositoryUrl>https://github.com/KodexDigital/Paystack.NetCore.SDK.SDK</RepositoryUrl>
     <RepositoryType>Public</RepositoryType>
     <PackageTags>Paystack, PaymentGateway, ForLove, Development</PackageTags>
     <PackageLicenseExpression></PackageLicenseExpression>
@@ -17,15 +17,13 @@
     <FileVersion>1.0.0.0</FileVersion>
     <ApplicationIcon>paystack.ico</ApplicationIcon>
     <Version>1.0.1</Version>
+    <PackageId>Paystack.NetCore.SDK.SDK</PackageId>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <NeutralLanguage>en-GB</NeutralLanguage>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Paystack.NetCore.Constants\Paystack.NetCore.Constants.csproj" />
-    <ProjectReference Include="..\Paystack.NetCore.Interface\Paystack.NetCore.Interfaces.csproj" />
   </ItemGroup>
 
   <ItemGroup>

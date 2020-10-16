@@ -1,4 +1,4 @@
-﻿using Paystack.NetCore.SDK.Fees;
+﻿using Paystack.NetCore.SDK.SDK.Fees;
 
 namespace Paystack.NetCore.SDK.Helpers
 {

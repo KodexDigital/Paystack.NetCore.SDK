@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
-using Paystack.NetCore.Models.Verifications;
 using Paystack.NetCore.SDK.Interfaces;
+using Paystack.NetCore.SDK.Models.Verifications;
 using System;
 using System.Threading.Tasks;
 

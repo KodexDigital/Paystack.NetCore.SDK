@@ -1,13 +1,12 @@
 ﻿using Newtonsoft.Json;
-using Paystack.NetCore.Constants;
-using Paystack.NetCore.Interfaces;
-using Paystack.NetCore.Models.Charges;
+using Paystack.NetCore.SDK.Constants;
+using Paystack.NetCore.SDK.Interfaces;
+using Paystack.NetCore.SDK.Models.Charges;
 using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
-using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace Paystack.NetCore.SDK.Charges
