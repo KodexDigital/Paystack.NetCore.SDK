@@ -5,15 +5,12 @@ using Paystack.NetCore.SDK.Models.Authorizations;
 using Paystack.NetCore.SDK.Models.Exports;
 using Paystack.NetCore.SDK.Models.Transactions;
 using Paystack.NetCore.SDK.Models.ViewModels;
-using System;
 using System.Collections.Generic;
 using System.Net.Http;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Paystack.NetCore.SDK.Transactions
 {
-	[Obsolete]
 	public class PaystackTransaction : ITransactions
 	{
 		private readonly string secretKey;
@@ -36,7 +33,8 @@ namespace Paystack.NetCore.SDK.Transactions
 
 		public async Task<PaymentInitalizationResponse> InitializeTransaction(string email, int amount, string firstName = null,
 																				string lastName = null, string callbackUrl = null,
-																				string reference = null, bool makeReferenceUnique = false)
+																				string reference = null, bool makeReferenceUnique = false, 
+																				string currency = "NGN")
 		{
 
 			var client = HttpConnection.CreateClient(secretKey);

@@ -9,10 +9,9 @@ namespace Paystack.NetCore.SDK
 {
 	public static class HttpConnection
 	{
-		[Obsolete]
 		public static HttpClient CreateClient(string secretKey)
 		{
-			ServicePointManager.SecurityProtocol = SecurityProtocolType.Ssl3 | SecurityProtocolType.Tls | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
+			ServicePointManager.SecurityProtocol =  SecurityProtocolType.Tls | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
 			var client = new HttpClient
 			{
 				BaseAddress = new Uri(BaseConstants.PaystackBaseEndPoint)

@@ -1,5 +1,4 @@
 ﻿using Newtonsoft.Json;
-using System;
 
 namespace Paystack.NetCore.SDK.Models
 {
@@ -15,7 +14,7 @@ namespace Paystack.NetCore.SDK.Models
 		public string Subaccount { get; set; }
 
 		[JsonProperty(PropertyName = "transaction_charge")]
-		public Int32 TransactionCharge { get; set; } = 0;
+		public int TransactionCharge { get; set; } = 0;
 
 		[JsonProperty(PropertyName = "bearer")]
 		public string Bearer { get; set; } = "account";
@@ -36,9 +35,12 @@ namespace Paystack.NetCore.SDK.Models
 		public string Plan { get; set; }
 
 		[JsonProperty(PropertyName = "invoice_limit")]
-		public Int32 InvoiceLimit { get; set; } = 0;
+		public int InvoiceLimit { get; set; } = 0;
 
 		[JsonProperty(PropertyName = "make_reference_unique")]
 		public bool MakeReferenceUnique { get; set; } = false;
+
+		[JsonProperty(PropertyName = "currency")]
+		public string Currency { get; set; } = "NGN";
 	}
 }

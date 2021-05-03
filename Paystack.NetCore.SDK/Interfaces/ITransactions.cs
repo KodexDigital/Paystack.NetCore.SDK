@@ -3,9 +3,6 @@ using Paystack.NetCore.SDK.Models.Authorizations;
 using Paystack.NetCore.SDK.Models.Exports;
 using Paystack.NetCore.SDK.Models.Transactions;
 using Paystack.NetCore.SDK.Models.ViewModels;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Paystack.NetCore.SDK.Interfaces
@@ -13,7 +10,7 @@ namespace Paystack.NetCore.SDK.Interfaces
 	public interface ITransactions
 	{
 		Task<PaymentInitalizationResponse> InitializeTransaction(string email, int amount, string firstName = null,
-		   string lastName = null, string callbackUrl = null, string reference = null, bool makeReferenceUnique = false);
+		   string lastName = null, string callbackUrl = null, string reference = null, bool makeReferenceUnique = false, string currency = "NGN");
 
 		Task<PaymentInitalizationResponse> InitializeTransaction(TransactionInitializationRequest requestObj);
 
