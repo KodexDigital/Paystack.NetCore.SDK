@@ -6,17 +6,17 @@
     <Authors>Kenneth Otoro - Kodex</Authors>
     <Company>Love for Development</Company>
     <Description>A library for Paystack payment gateway for the .Net Core community</Description>
-    <Copyright>2020</Copyright>
+    <Copyright>Copyright @ 2020</Copyright>
     <RepositoryUrl>https://github.com/KodexDigital/Paystack.NetCore.SDK</RepositoryUrl>
     <RepositoryType>Public</RepositoryType>
     <PackageTags>Paystack, PaymentGateway, ForLove, Development</PackageTags>
     <PackageLicenseExpression></PackageLicenseExpression>
     <PackageIcon>Paystack.png</PackageIcon>
     <PackageLicenseFile>LICENSES.txt</PackageLicenseFile>
-    <AssemblyVersion>1.0.0.3</AssemblyVersion>
-    <FileVersion>1.0.0.3</FileVersion>
+    <AssemblyVersion>1.0.0.4</AssemblyVersion>
+    <FileVersion>1.0.0.4</FileVersion>
     <ApplicationIcon>paystack.ico</ApplicationIcon>
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
     <PackageId>Paystack.NetCore.SDK</PackageId>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <NeutralLanguage>en-GB</NeutralLanguage>

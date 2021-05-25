@@ -2,14 +2,12 @@
 using Paystack.NetCore.SDK.Interfaces;
 using Paystack.NetCore.SDK.Models.CreateSubAccounts;
 using Paystack.NetCore.SDK.Models.SubAccounts;
-using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
 
 namespace Paystack.NetCore.SDK.SubAccounts
 {
-	[Obsolete]
 	public class PaystackSubAccount : ISubAccounts
 	{
 		private readonly string secretKey;
@@ -106,7 +104,5 @@ namespace Paystack.NetCore.SDK.SubAccounts
 
 			return result;
 		}
-
-
 	}
 }

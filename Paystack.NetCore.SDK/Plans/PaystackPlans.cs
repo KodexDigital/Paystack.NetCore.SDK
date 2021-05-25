@@ -1,15 +1,12 @@
 ﻿using Newtonsoft.Json;
 using Paystack.NetCore.SDK.Interfaces;
 using Paystack.NetCore.SDK.Models.Plans;
-using System;
 using System.Collections.Generic;
 using System.Net.Http;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Paystack.NetCore.SDK.SDK.Plans
 {
-	[Obsolete]
 	public class PaystackPlans : IPlans
 	{
 		private readonly string secretKey;

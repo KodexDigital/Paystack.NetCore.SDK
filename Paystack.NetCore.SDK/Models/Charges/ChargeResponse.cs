@@ -6,6 +6,7 @@ namespace Paystack.NetCore.SDK.Models.Charges
 {
     public class ChargeResponse : Responses
     {
+        [JsonProperty(PropertyName = "data")]
         public ChargeData Data { get; set; }
     }
 

@@ -2,7 +2,6 @@
 using Paystack.NetCore.SDK.Constants;
 using Paystack.NetCore.SDK.Interfaces;
 using Paystack.NetCore.SDK.Models.Charges;
-using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Headers;
@@ -11,7 +10,6 @@ using System.Threading.Tasks;
 
 namespace Paystack.NetCore.SDK.Charges
 {
-	[Obsolete]
 	public class PaystackCharge: ICharge
 	{
 		private readonly string secretKey;

@@ -1,7 +1,4 @@
 ﻿using Paystack.NetCore.SDK.Models.Plans;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Paystack.NetCore.SDK.Interfaces

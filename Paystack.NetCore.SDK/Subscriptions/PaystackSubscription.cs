@@ -1,13 +1,11 @@
 ﻿using Newtonsoft.Json;
 using Paystack.NetCore.SDK.Interfaces;
-using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
 
 namespace Paystack.NetCore.SDK.Subscription
 {
-    [Obsolete]
     public class PaystackSubscription : ISubscriptions
     {
         private readonly string secretKey;

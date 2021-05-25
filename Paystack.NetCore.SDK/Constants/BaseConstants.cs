@@ -1,4 +1,6 @@
-﻿namespace Paystack.NetCore.SDK.Constants
+﻿using System.Net.Mime;
+
+namespace Paystack.NetCore.SDK.Constants
 {
 	public static class BaseConstants
 	{
@@ -8,7 +10,7 @@
 		/// <summary>
 		/// Application - Json Content Type
 		/// </summary>
-		public const string ContentTypeHeaderJson = "application/json";
+		public const string ContentTypeHeaderJson = MediaTypeNames.Application.Json;
 		/// <summary>
 		/// HTTP Authorization Header
 		/// </summary>

@@ -150,7 +150,7 @@ namespace Paystack.NetCore.SDK.Models
         [JsonProperty(PropertyName = "log")]
         public Log Log { get; set; }
 
-        [JsonProperty(PropertyName = "fess")]
+        [JsonProperty(PropertyName = "fees")]
         public object Fees { get; set; }
 
         [JsonProperty(PropertyName = "authorization")]

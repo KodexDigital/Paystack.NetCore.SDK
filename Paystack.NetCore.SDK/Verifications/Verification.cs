@@ -15,7 +15,6 @@ namespace Paystack.NetCore.SDK.Verifications
 			this.secretKey = secretKey;
 		}
 
-		[Obsolete]
 		public async Task<BvnVerificationResponse> ResolveBVN(string bvn)
 		{
 			var client = HttpConnection.CreateClient(secretKey);

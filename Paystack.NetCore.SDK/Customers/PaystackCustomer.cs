@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 
 namespace Paystack.NetCore.SDK.Customers
 {
-	[Obsolete]
 	public class PaystackCustomer : ICustomers
 	{
 		private readonly string secretKey;

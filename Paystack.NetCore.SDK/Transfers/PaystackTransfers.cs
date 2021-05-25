@@ -3,15 +3,12 @@ using Paystack.NetCore.SDK.Interfaces;
 using Paystack.NetCore.SDK.Models.Transfers.Initiations;
 using Paystack.NetCore.SDK.Models.Transfers.Recipient;
 using Paystack.NetCore.SDK.Models.Transfers.TransferDetails;
-using System;
 using System.Collections.Generic;
 using System.Net.Http;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Paystack.NetCore.SDK.Transfers
 {
-	[Obsolete]
 	public class PaystackTransfers : ITransfers
 	{
 		private readonly string secretKey;
